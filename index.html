@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>euoryan // calculator</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="dark">
+  <div class="theme-toggle">
+    <div class="toggle-icon"></div>
+  </div>
+  
+  <div class="calculator">
+    <div class="brand">euoryan // <span>calc</span></div>
+    
+    <div class="display-container">
+      <div class="display">
+        <div class="history" id="history"></div>
+        <div class="current-value" id="value">0</div>
+      </div>
+    </div>
+    
+    <div class="buttons">
+      <button class="btn function" id="clear">AC</button>
+      <button class="btn function" id="backspace">⌫</button>
+      <button class="btn operator">%</button>
+      <button class="btn operator">/</button>
+      
+      <button class="btn number">7</button>
+      <button class="btn number">8</button>
+      <button class="btn number">9</button>
+      <button class="btn operator">×</button>
+      
+      <button class="btn number">4</button>
+      <button class="btn number">5</button>
+      <button class="btn number">6</button>
+      <button class="btn operator">-</button>
+      
+      <button class="btn number">1</button>
+      <button class="btn number">2</button>
+      <button class="btn number">3</button>
+      <button class="btn operator" id="plus">+</button>
+      
+      <button class="btn number zero">0</button>
+      <button class="btn number">.</button>
+      <button class="btn equal" id="equal">=</button>
+    </div>
+  </div>
+  
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
